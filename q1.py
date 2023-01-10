@@ -5,4 +5,7 @@ for i in range(0,c):
 sum=0
 for x in a:
     sum =sum + x*x
-print(sum) 
+print(sum)
+
+
+#ADDED COMMMET
