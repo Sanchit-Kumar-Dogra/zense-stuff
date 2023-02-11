@@ -40,7 +40,7 @@ int main(){
     fclose(fptr);   
 
     FILE *ffptr;                            //File output is given to output_file.txt
-    ffptr=fopen("output_file.txt", "w");
+    ffptr=fopen("output_file", "w");
     for(int j = 0; j < n; ++j){
         fprintf(ffptr,"%s %d %g\n", (info[j]).name, (info[j]).id, ((info[j]).marks));
     }
